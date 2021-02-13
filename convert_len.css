@@ -1,0 +1,158 @@
+/* Navbar Start */
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_navba
+{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(45deg, #6303B1, #ff0099);
+    z-index: 1;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,10);
+}
+.Logo{
+    position:relative;
+    width: 17%;
+    height: 100%;
+    border: none;
+    float: left;
+    background-color:#00ffff;
+    transform: skewX(15deg);
+    transform-origin: bottom left;
+}
+.inner_logo{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100%;
+    float: left;
+    transform: skewX(-15deg);
+}
+.logo_text{
+    font-size:22px;
+    font-weight:bolder;
+    margin-top: 10%;
+    text-shadow:1px 1px 1px #000; 
+}
+#navba_2{
+    position:relative;
+    width: 13%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    float: left;
+}
+.subna{
+    position:relative;
+    width: 13%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    float: left;
+}
+.flag{
+    position:relative;
+    width: 13%;
+    height: 100%;
+    line-height: 100%;
+    float: right;
+    text-align: center;
+}
+.nav_te{
+    font-size:22px;
+    font-weight:bold;
+    color:#00ffff;
+    margin-top: 10%;
+}
+.nav_tex{
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+    margin-top: 10%;
+}
+.subna:hover .nav_tex{
+    color:#00ffff;
+}
+#navba_2:hover .nav_tex{
+    color: #00ffff;
+}
+.toggle{
+    position: absolute;
+    visibility: hidden;
+}
+#nav_toggle{
+    visibility: hidden;
+}
+/* Navbar End */
+.main_frame{
+    position: relative;
+    width: 100vw;
+    height: 550px;
+    text-align: center;
+    background-color: #43e97b;
+}
+.frame_1{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    height: 25%;
+}
+.frame_2{
+    position: relative;
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    border-radius: 5px;
+    border-top: 1px solid #524747;
+    border-bottom: 1px solid #524747;
+}
+.subframe_1{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom:1px solid #524747;
+    background-color: #00ffff;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.text_1{
+    position: absolute;
+    width: 100%;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+.subframe_2{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    font-size: 23px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    background-color: white;
+}
+.subsub1{
+    position: relative; 
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px dashed #524747;
+}
+.subsub2{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.subcont1{
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
